@@ -1,5 +1,4 @@
 <template>
-
     <div>
         <my-header></my-header>
         <my-search></my-search>

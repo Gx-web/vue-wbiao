@@ -1,16 +1,18 @@
 <template>
-<div>
-        <h1>1234re</h1>
+    <div>
+        <box></box>
         <my-footer></my-footer>
     </div>
 </template>
 
 <script>
 import footer from "../components/footer"
+import box from "../components/my/box"
 export default {
     name:"my",
     components:{
-        "my-footer":footer
+        "my-footer":footer,
+        box
     }
 
 }

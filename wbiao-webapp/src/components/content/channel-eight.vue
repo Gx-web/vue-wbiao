@@ -40,7 +40,6 @@ export default {
 .channel-eight{
     width: 100%;
     height: 2.4rem;
-    background: red;
     display: flex;
     flex-wrap: wrap;
 }
