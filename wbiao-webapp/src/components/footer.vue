@@ -67,5 +67,6 @@ export default {
 }
 .footer-nav span{
     font-size: 0.11rem;
+    color: black;
 }
 </style>

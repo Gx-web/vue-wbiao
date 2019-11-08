@@ -1,8 +1,10 @@
 <template>
     <div class="head-title">
         <a href="#" class="wbiao">
-            <p class="icon-a-return"></p>
-            <p class="text">万表</p>
+            <router-link :to="'/main/shouye'">
+                <p class="icon-a-return"></p>
+                <p class="text">万表</p>
+            </router-link>
         </a>
         <div class="logo">
             <img src="../../../../../public/img2/index-logo.png" alt="">

@@ -1,16 +1,21 @@
 <template>
-<div>
-        <h1>vxvcvv</h1>
+    <div>
+        <xheader></xheader>
+        <xmenu></xmenu>
         <my-footer></my-footer>
     </div>
 </template>
 
 <script>
-import footer from "../components/footer"
+import xheader from "../components/xuanbiao/xheader";
+import xmenu from "../components/xuanbiao/xmenu";
+import footer from "../components/footer";
 export default {
     name:"xuanbiao",
     components:{
-        "my-footer":footer
+        "my-footer":footer,
+        xheader,
+        xmenu
     }
 
 }

@@ -6,7 +6,8 @@
         <a href="#" class="pic">
             <span class="icon-a-m-head01"></span>
             <div class="head-login">
-                <p class="p1">登录/注册</p>
+<!--            <p class="p1">登录/注册</p>-->
+                <router-link tag="p" class="p1" to="/login">登录/注册</router-link>
                 <p class="p2">登录享优惠</p>
             </div>
         </a>
