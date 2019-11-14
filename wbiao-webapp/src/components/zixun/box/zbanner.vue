@@ -1,12 +1,30 @@
 <template>
     <div class="banner">
-        <img src="../../../../public/img2/1566973584410775513.jpg" alt="">
+<!--        <img src="../../../../public/img2/1566973584410775513.jpg" alt="">-->
+        <swiper :options="swiperOption">
+            <swiper-slide v-for="(slide, index) in data.banner" :key="index">
+                <img :src=slide alt="">
+            </swiper-slide>
+            <div class="swiper-pagination" slot="pagination"></div>
+        </swiper>
     </div>
 </template>
 
 <script>
     export default {
-        name: "zbanner"
+        name: "zbanner",
+        props: ["data"],
+        data() {
+            return {
+                swiperOption: {
+                    autoplay:true,
+                    pagination: {
+                        el: '.swiper-pagination'
+                    }
+                },
+                swiperSlides: [1, 2, 3, 4, 5]
+            }
+        }
     }
 </script>
 

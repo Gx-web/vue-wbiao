@@ -1,9 +1,9 @@
 <template>
     <div id="box">
-        <zheader></zheader>
-        <zbanner></zbanner>
-        <modular></modular>
-        <fashion></fashion>
+        <zheader :data="data"></zheader>
+        <zbanner :data="data"></zbanner>
+        <modular :data="data"></modular>
+        <fashion :data="data"></fashion>
     </div>
 </template>
 
@@ -19,7 +19,8 @@
             zbanner,
             modular,
             fashion
-        }
+        },
+        props: ["data"]
     }
 </script>
 

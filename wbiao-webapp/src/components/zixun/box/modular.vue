@@ -1,19 +1,20 @@
 <template>
     <div class="modular">
-        <div class="modular-content">
-            <img src="../../../../public/img2/152211788418193.jpg" alt="">
-            <p>4万元卡地亚表带一年就断？聊聊表带该如何保养</p>
+        <div class="modular-content" v-for="(pic,i) in data.modular" :key="i">
+            <img :src=pic.img alt="">
+            <p>{{pic.text}}</p>
         </div>
-        <div class="modular-content">
-            <img src="../../../../public/img2/152220649960305.jpg" alt="">
-            <p>为什么会有人在闲鱼上卖1600元的水鬼？</p>
-        </div>
+<!--        <div class="modular-content">-->
+<!--            <img src="../../../../public/img2/152220649960305.jpg" alt="">-->
+<!--            <p>为什么会有人在闲鱼上卖1600元的水鬼？</p>-->
+<!--        </div>-->
     </div>
 </template>
 
 <script>
     export default {
-        name: "modular"
+        name: "modular",
+        props: ["data"]
     }
 </script>
 

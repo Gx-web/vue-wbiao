@@ -1,12 +1,29 @@
 <template>
     <div class="banner">
-        <img src="../../.././public/img1/97d51508205f435781b66af207b51e6d.jpg" alt="">
+        <swiper :options="swiperOption">
+            <swiper-slide v-for="(slide, index) in data.swiperList" :key="index">
+                <img :src=slide alt="">
+            </swiper-slide>
+            <div class="swiper-pagination" slot="pagination"></div>
+        </swiper>
     </div>
 </template>
 
 <script>
 export default {
-    name:"banner"
+    name:"banner",
+    props:["data"],
+    data() {
+        return {
+            swiperOption: {
+                autoplay:true,
+                pagination: {
+                    el: '.swiper-pagination'
+                }
+            },
+            swiperSlides: [1, 2, 3, 4, 5]
+        }
+    }
 }
 </script>
 

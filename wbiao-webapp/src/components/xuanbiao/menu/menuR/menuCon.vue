@@ -1,5 +1,5 @@
 <template>
-    <menuConItem></menuConItem>
+    <menuConItem :data="data"></menuConItem>
 </template>
 
 <script>
@@ -8,7 +8,8 @@
         name: "menuCon",
         components: {
             menuConItem
-        }
+        },
+        props: ["data"]
     }
 </script>
 

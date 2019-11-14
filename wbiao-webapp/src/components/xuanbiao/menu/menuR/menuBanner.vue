@@ -1,12 +1,13 @@
 <template>
-    <div class="menu-banner">
-        <img src="../../../../../public/img4/34440cf88487405c88e354a4490d4918.jpg" alt="">
+    <div class="menu-banner" v-if="data">
+        <img :src=data.products.img alt="">
     </div>
 </template>
 
 <script>
     export default {
-        name: "menuBanner"
+        name: "menuBanner",
+        props: ["data"]
     }
 </script>
 

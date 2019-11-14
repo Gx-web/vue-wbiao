@@ -2,7 +2,7 @@
   <div id="box">
         <div id="header">
             <a href="#">
-                <img src="@/../public/img1/cec1f0c39a514c4798f86ff8628c44d2.png" alt="">
+                <img :src=data.newUser alt="">
             </a>
         </div>
     </div>
@@ -10,7 +10,8 @@
 
 <script>
 export default {
-    name:"myheader"
+    name:"myheader",
+    props:["data"]
   
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <headerTop></headerTop>
-        <znav></znav>
+        <znav :data="data"></znav>
     </div>
 </template>
 
@@ -13,7 +13,8 @@
         components: {
             headerTop,
             znav
-        }
+        },
+        props: ["data"],
     }
 </script>
 

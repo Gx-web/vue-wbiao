@@ -1,35 +1,26 @@
 <template>
     <div class="nav">
-        <div class="nav-content">
-            <div class="nav-c-t" style="color: #d1af67;">推荐</div>
-        </div>
-        <div class="nav-content">
-            <div class="nav-c-t">购表指南</div>
-        </div>
-        <div class="nav-content">
-            <div class="nav-c-t">手表测评</div>
-        </div>
-        <div class="nav-content">
-            <div class="nav-c-t">品牌动态</div>
-        </div>
-        <div class="nav-content">
-            <div class="nav-c-t">时尚穿搭</div>
-        </div>
-        <div class="nav-content">
-            <div class="nav-c-t">对话人物</div>
-        </div>
-        <div class="nav-content">
-            <div class="nav-c-t">大讲堂</div>
-        </div>
-        <div class="nav-content">
-            <div class="nav-c-t">表友论</div>
+        <div class="nav-content" v-for="(title,i) in data.nav" :key="i"
+             @click="changeColor(i)" :class="i==color?'active':''">
+            <div class="nav-c-t">{{title}}</div>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "znav"
+        name: "znav",
+        props: ["data"],
+        data(){
+            return {
+                color:0
+            }
+        },
+        methods:{
+            changeColor(index){
+                this.color = index
+            }
+        }
     }
 </script>
 
@@ -56,5 +47,8 @@
         height: 100%;
         text-align: center;
         font-weight: bold;
+    }
+    .active{
+        color: #d1af67;
     }
 </style>

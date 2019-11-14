@@ -1,29 +1,30 @@
 <template>
 <div id="mian">
-    <banner></banner>
-    <my-menu></my-menu>
+    <banner :data="data"></banner>
+    <my-menu :data="data"></my-menu>
     <div class="Seckill">
-        <img src="../.././public/img1/27243d39ab3148e4ba82f3b76080080c.jpg" alt="">
+        <img :src=data.adv alt="">
     </div>
-    <Preferred></Preferred>
-    <channelEight></channelEight>
+    <Preferred :data="data"></Preferred>
+    <channelEight :data="data"></channelEight>
     <div class="Preferred-brand-title">
         <p>本月爆款</p>
         <p class="title-line"></p>
     </div>
-    <channelThree></channelThree>
+    <channelThree :data="data"></channelThree>
+<!--    <div class="Preferred-brand-title">-->
+<!--        <p>男士</p>-->
+<!--        <p class="title-line"></p>-->
+<!--    </div>-->
+<!--    <channelNine></channelNine>-->
+<!--    <channelTen></channelTen>-->
+    <mainItem v-for="(item,i) in data.type" :key="i" :data="item"></mainItem>
     <div class="Preferred-brand-title">
-        <p>本月爆款</p>
+        <p>开放共享</p>
         <p class="title-line"></p>
     </div>
-    <channelNine></channelNine>
-    <channelTen></channelTen>
-    <div class="Preferred-brand-title">
-        <p>本月爆款</p>
-        <p class="title-line"></p>
-    </div>
-    <OpenSharing></OpenSharing>
-    <product></product>
+    <OpenSharing :data="data"></OpenSharing>
+    <product :data="data"></product>
 </div>
   
 </template>
@@ -34,10 +35,9 @@ import menu from "../components/content/menu"
 import Preferred from "../components/content/Preferred"
 import channelEight from "../components/content/channel-eight"
 import channelThree from "../components/content/channel-three"
-import channelNine from "../components/content/channel-nine"
-import channelTen from "../components/content/channel-ten"
 import OpenSharing from "../components/content/Open-sharing"
 import product from "../components/content/product"
+import mainItem from "./content/mainItem";
 export default {
     name:"mmain",
     components:{
@@ -46,11 +46,11 @@ export default {
         Preferred,
         channelEight,
         channelThree,
-        channelNine,
-        channelTen,
+        mainItem,
         OpenSharing,
         product
-    }
+    },
+    props:["data"]
 }
 </script>
 

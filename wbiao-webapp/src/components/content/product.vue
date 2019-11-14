@@ -1,5 +1,5 @@
 <template>
-  <list></list>
+  <list :data="data"></list>
 </template>
 
 <script>
@@ -8,7 +8,8 @@ export default {
     name:"product",
     components:{
         list
-    }
+    },
+    props: ["data"]
 }
 </script>
 

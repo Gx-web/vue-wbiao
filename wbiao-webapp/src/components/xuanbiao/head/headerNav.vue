@@ -5,7 +5,7 @@
                 精准选表
             </div>
             <div class="navbar-itemR">
-                精准选表
+                极速选表
                 <div class="new">
                     <span>新功能</span>
                 </div>

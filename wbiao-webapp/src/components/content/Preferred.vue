@@ -5,14 +5,31 @@
                 <p class="title-line"></p>
             </div>
             <div class="Preferred-brand-banner">
-                <img src="../../.././public/img1/97e07556904f40ffbbc241ecfd2af741.jpg" alt="">
+                <swiper :options="swiperOption">
+                    <swiper-slide v-for="(slide, index) in data.pinPai" :key="index">
+                        <img :src=slide alt="">
+                    </swiper-slide>
+                    <div class="swiper-pagination" slot="pagination"></div>
+                </swiper>
             </div>
         </div>
 </template>
 
 <script>
 export default {
-    name:"Preferred"
+    name:"Preferred",
+    props: ["data"],
+    data() {
+        return {
+            swiperOption: {
+                autoplay:true,
+                pagination: {
+                    el: '.swiper-pagination'
+                }
+            },
+            swiperSlides: [1, 2, 3, 4, 5]
+        }
+    }
 }
 </script>
 

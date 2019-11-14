@@ -1,7 +1,7 @@
 <template>
     <div class="menu-right">
-        <menuBanner></menuBanner>
-        <menuCon></menuCon>
+        <menuBanner :data="data"></menuBanner>
+        <menuCon :data="data"></menuCon>
     </div>
 </template>
 
@@ -13,7 +13,8 @@
         components: {
             menuBanner,
             menuCon
-        }
+        },
+        props: ["data"]
     }
 </script>
 

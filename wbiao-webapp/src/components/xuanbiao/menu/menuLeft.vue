@@ -1,23 +1,27 @@
 <template>
     <div class="menu-left">
         <ul>
-            <li><a href="#" class="tt">推荐</a></li>
-            <li><a href="#">顶级品牌</a></li>
-            <li><a href="#">奢华品牌</a></li>
-            <li><a href="#">高级品牌</a></li>
-            <li><a href="#">轻奢时尚</a></li>
-            <li><a href="#">年轻潮流</a></li>
-            <li><a href="#">国产智能</a></li>
-            <li><a href="#">表带</a></li>
-            <li><a href="#">维修保养</a></li>
-            <li><a href="#">二手商城</a></li>
+            <li v-for="(list,i) in data.nav" :key="i">
+                <a href="#" @click="changeColor(i)" :class="i==color?'tt':''">{{list}}</a>
+            </li>
         </ul>
     </div>
 </template>
 
 <script>
     export default {
-        name: "menuLeft"
+        name: "menuLeft",
+        props: ["data"],
+        data() {
+            return {
+                color:0
+            }
+        },
+        methods:{
+            changeColor(index){
+                this.color = index
+            }
+        }
     }
 </script>
 
@@ -35,7 +39,7 @@
         justify-content: center;
         border-bottom: 0.01rem solid rgb(218, 214, 214);
     }
-    .menu-left li .tt{
+    .tt{
         display: block;
         height: 0.21rem;
         width: 0.61rem;

@@ -1,0 +1,62 @@
+{
+  "nav": ["推荐","购表指南","手表测评","品牌动态","时尚穿搭","对话人物","大讲堂","表友论"],
+  "banner": [
+    "http://img0.wbiao.com.cn/article/201908/28/1566973584410775513.jpg",
+    "http://img0.wbiao.com.cn/article/201907/18/1563429403709110571.jpg",
+    "http://img0.wbiao.com.cn/article/201907/16/1563274836194849206.jpg",
+    "http://img0.wbiao.com.cn/article/201906/13/1560421331493903527.jpg",
+    "http://img0.wbiao.com.cn/article/201906/06/1559788416357572103.jpg"
+  ],
+  "modular": [
+    {
+      "img": "http://img0.wbiao.com.cn/article/201803/27/152211788418193.jpg",
+      "text": "4万元卡地亚表带一年就断？聊聊表带该如何保养"
+    },
+    {
+      "img": "http://img0.wbiao.com.cn/article/201803/28/152220649960305.jpg",
+      "text": "为什么会有人在闲鱼上卖1600元的水鬼？"
+    }
+  ],
+  "fashion": [
+    {
+      "title": "买表遇到的血的教训",
+      "img": "http://img0.wbiao.com.cn/article/201911/07/1573131451289148233.jpg"
+    },
+    {
+      "title": "深度扒|宝珀到底是不是“天地良心”？",
+      "img": "http://img0.wbiao.com.cn/article/201911/04/1572857322732566858.jpg"
+    },
+    {
+      "title": "这种冷门的表，还是有几个牌子在做……",
+      "img": "http://img0.wbiao.com.cn/article/201911/04/1572854882497496639.jpg"
+    },
+    {
+      "title": "一周实测|告诉你GarminMove Luxe到底好不好！",
+      "img": "http://img0.wbiao.com.cn/article/201909/30/1569823333123215958.jpg"
+    },
+    {
+      "title": "国内著名的名表品牌",
+      "img": "http://img0.wbiao.com.cn/article/201911/04/1572853385459575875.png"
+    },
+    {
+      "title": "到处找人联名的它，又找上了沛纳海……",
+      "img": "http://img0.wbiao.com.cn/article/201911/04/1572851041151951677.jpg"
+    },
+    {
+      "title": "这种手表迷倒很多人，你是其中一个吗？",
+      "img": "http://img0.wbiao.com.cn/article/201911/07/1573131062124079926.jpg"
+    },
+    {
+      "title": "秋天来了，你只知道换衣服？其实手表也要换！",
+      "img": "http://img0.wbiao.com.cn/article/201910/17/1571311770217731500.jpg"
+    },
+    {
+      "title": "这个男人曾经击垮了瑞士制表业，如今却默默消失了。",
+      "img": "http://img0.wbiao.com.cn/article/201902/28/1551316396290200953.png"
+    },
+    {
+      "title": "老佛爷的选表眼光，能带给我们什么启示？",
+      "img": "http://img0.wbiao.com.cn/article/201902/20/1550657736790111139.jpg"
+    }
+  ]
+}

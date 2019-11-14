@@ -1,0 +1,145 @@
+{
+  "nav": ["推荐","顶级品牌","奢华品牌","高级品牌","轻奢时尚","年轻潮流","国产智能","表带","维修保养","二手商城"],
+  "products":{
+    "img": "https://image7.wbiao.co/mall/b2ae7607e62d4e04800c985fdb1071e0.jpg",
+    "like": [
+      {
+        "img": "https://image7.wbiao.co/mall/796e1ae174b144c09d0615cca66b7426.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "机械表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/824cd8f7feae4978b1f14b25ae5bf50c.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "石英表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/484db415cecb4cc39ab2cb334a62d0f2.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "钢带手表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/e491533b98964561af22ac11654722f3.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "商务休闲"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/f75e6f9068484f63835c9777de06ac5d.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "男表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/604c31a40d6140eba748f611387acd18.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "女表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/532170649470421f94200c528a5e434f.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "认证二手"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/ae86e2d75120468391b867aa14cf143d.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "高价回收"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/7398774599384adabea94b9f92e72b7e.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "限时拍卖"
+      }
+    ],
+    "International": [
+      {
+        "img": "https://image7.wbiao.co/mall/fadee736ccc440e39ed1771057a0b8ca.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "瑞士表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/c8a9f501ea264f11ad6e7ea715378d2c.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "欧美表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/e425a5030a4840f5b9978975ea0365fa.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "日系表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/f7e7df5f626b4d16abeb880651ddc18d.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "国产表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/c36ff63886e14b70922d779204b18ada.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "德国表"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/60166347abf7481d9b6ad9617d0c15da.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "法式表"
+      }
+    ],
+    "HotBrands": [
+      {
+        "img": "https://image7.wbiao.co/mall/24401fd69f1a45ee97bf511456837a38.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "劳力士"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/aba52ed1b9de43fd878ca52b35ff1a33.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "赫柏林"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/19878ab3ee46481186ba218b7e9c58d3.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "浪琴"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/7cb312199d114c3fbaa3d0c52f6646ab.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "爱宝时"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/1ce82b5144e84244821009ab00416e6c.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "东方星"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/aba7ad5e850340a197b058401fc9be03.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "欧米茄"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/0aa45c3cd4e5436b9eacd0455b5b72bc.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "豪利时"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/24f0e844a43947e2aa1c5d5450c104f6.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "库尔沃"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/68e6557c8fb046908393475092954b2c.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "天梭"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/0421637d0e4f4d1e9e8a45922100021f.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "迪沃斯"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/210686156b534fb0bd4acd077da2f1bb.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "柏高"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/02b47af9b34c4516a9030208530a73de.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "德国莫勒"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/1be21cb2b8724352979e4089141fa0f9.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "美度"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/9a26ca38f33c4762801f6021930129cf.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "卡洛夫"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/9b5d07e46e404a64bf8dae20279c1d9d.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "梅花"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/3e6cb4e7689d4bc9afc8b1d463cde4c7.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "泰格豪雅"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/810e057adcf74a9796e9ba9eddef0aca.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "驰客"
+      },
+      {
+        "img": "https://image7.wbiao.co/mall/e0c1b396fd91495aa3d23b4bdd228cd2.png?x-oss-process=image/resize,m_fill,w_120,h_120/quality,q_90",
+        "title": "世纪"
+      }
+    ]
+  }
+
+}
